@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-cyan);
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-position: calc(50vw - 978px) calc(50vh - 978px), 50vw 50vh;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 978px 978px, 978px 978px;
+
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  margin: 0;
+  padding: 1.5em;
+
+  position: relative;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.component-card {
+  background: white;
+  max-width: 350px;
+  flex: 1 1;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.card-image {
+  background-image: url(../images/bg-pattern-card.svg);
+  height: 140px;
+  position: relative;
+  margin-bottom: 75px;
+}
+
+.card-image img {
+  border-radius: 50%;
+  border: 5px solid white;
+  height: 106px;
+  width: 106px;
+  position: absolute;
+  bottom: -53px;
+  left: calc(50% - 53px);
+}
+
+.card-title p {
+  margin-bottom: 0.7em;
+}
+.card-title .name {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-dark-blue);
+}
+
+.card-title .age {
+  font-size: 18px;
+  margin-left: 0.3em;
+  color: var(--color-grayish-blue);
+}
+
+.card-title .location {
+  font-size: 0.9em;
+  color: var(--color-grayish-blue);
+}
+
+.card-title {
+  margin-bottom: 1.5em;
+}
+
+.card-stats ul {
+  border-top: 0.5px solid lightgrey;
+  list-style: none;
+  padding: 1.4em 0 0.5em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.card-stats .stat {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0.3em;
+  color: var(--color-dark-blue);
+}
+
+.card-stats .stat-type {
+  font-size: 0.65em;
+  color: var(--color-grayish-blue);
+  letter-spacing: 0.1em;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: yellow;
+}

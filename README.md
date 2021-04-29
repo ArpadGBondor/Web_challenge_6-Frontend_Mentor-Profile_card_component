@@ -1,3 +1,7 @@
+# [My Solution](https://arpadgbondor.github.io/Web_challenge_6-Frontend_Mentor-Profile_card_component/)
+
+------------------------------
+
 # Frontend Mentor - Profile card component
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
